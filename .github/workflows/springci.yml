@@ -2,9 +2,9 @@ name: Complete CI/CD Pipeline - Spring Boot
 
 on:
   push:
-    branches: [ "main", "develop", "staging" ]
+    branches: [ "main", "dev", "staging" ]
   pull_request:
-    branches: [ "main", "develop" ]
+    branches: [ "main", "dev" ]
 
 env:
   JAVA_VERSION: '21'
